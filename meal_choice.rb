@@ -24,4 +24,6 @@ puts snacks
 
 
 def meal_choice(breakfast="frosted flakes", lunch="grilled cheese", dinner="salmon")
-  puts "Morning is the best time for "
+  puts "Morning is the best time for #{breakfast}! I love to eat #{lunch} for lunch and #{dinner} for dinner!"
+end
+meal_choice
