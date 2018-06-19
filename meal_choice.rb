@@ -23,4 +23,5 @@ puts snacks
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
 
 
-def meal_choice(breakfast="s")
+def meal_choice(breakfast="frosted flakes", lunch="grilled cheese", dinner="salmon")
+  puts "Morning is the best time for "
